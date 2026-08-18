@@ -1,0 +1,265 @@
+nav .grplink{
+  color: white;
+  justify-content: space-between;
+}
+ h2, .navbar-brand{
+  font-family: "Dancing Script", cursive;
+  font-weight: 900;
+  font-size: 2rem;
+}
+
+nav{
+  background: url('/images/hero-bg.jpg');
+  background-size:cover;
+  
+  padding-bottom: 2rem;
+}
+.linki{
+  color: white;
+
+}
+.linki:hover{
+ color: #F0AE29;
+}
+.linki:active{
+ color: #F0AE29;
+
+}
+nav .spacee{
+  margin-right: 1rem;
+}
+.buttonnav{
+  text-decoration: none;
+  border-radius: 3rem;
+  background-color:#FFCD2A;
+  padding: 0.6rem 1rem;
+  
+}
+.buttonnav:hover{
+    background-color: #F0AE29;
+}
+.linki:active{
+  color: #F0AE29;
+}
+.endingnav{
+  align-content: center;
+
+  margin-left: 7rem;
+ 
+}
+.maincontain{
+  /* align-content: space-between; */
+  text-align: center;
+  /* margin: 4rem 0rem; */
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: center;
+  padding: 4rem;
+  
+  
+}
+.mainCenter{
+  width: 80%;
+   display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+ 
+
+}
+
+.list-tags{
+  display: flex;
+  justify-content: space-evenly;
+  padding: 2rem 6rem;
+  list-style-type: none;
+  cursor: pointer;
+  
+}
+.list-tags li{
+  padding: 0.4rem 1rem;
+}
+.list-tags li:focus, .list-tags li:active, .list-tags li:hover{
+background-color: #222831;
+color: white;
+
+border-radius: 2rem;
+}
+.mainCard .card-body{
+  
+  background-color: #222831;
+  color: white;
+  border-end-end-radius:17px ;
+  border-end-start-radius:17px ;
+  margin-bottom: 0;
+
+ 
+}
+.mainBTN{
+  background: #FFBB2A;
+  color: white;
+  /* font-size: 1.3rem; */
+  padding: 0.6rem 3.4rem;
+  margin:auto ;
+  border-radius: 30px;
+  margin-top: 20px;
+  border: 0px;
+}
+.mainBTN:hover{
+  background-color: #E69C1C;
+}
+
+.card{
+  margin-bottom: 1rem;
+}
+.oute{
+  border-end-end-radius:17px ;
+  border-end-start-radius:17px ;
+  text-align:start;
+}
+.cardAwsome{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+.cardAwsome .favdiv{
+  background-color: #F0AE29;
+  padding: 0.6rem;
+  border-radius: 50%;
+}
+.card img{
+ 
+ margin: auto;
+ height: 9rem;
+ width: 9rem;
+ margin-bottom: 2em;
+ margin-top: 2rem;
+ border-bottom-left-radius:40px;
+ 
+}
+
+.card img:hover{
+ height: 10rem;
+ width: 10rem;
+ margin-bottom: 1rem;
+ 
+}
+.card{
+  padding-top: 1rem;
+    background-color: #F1F2F3;
+   border-top-right-radius: 1rem;
+  border-top-left-radius:1rem ;
+  min-height: 400px;
+
+}
+
+
+
+
+
+
+
+footer{
+  text-align: center;
+  background-color: #222831;
+  color: white;
+  position: relative;
+  bottom: -1rem;
+  padding-top:50px;
+  padding-bottom: 20px;
+  
+}
+.footSec{
+  margin: auto;
+  
+
+  /* display: flex;
+  flex-wrap: wrap; */
+
+
+}
+.footSec section{
+  margin-bottom: 20px;
+}
+
+.footSec h3{
+  font-family: "Dancing Script", cursive;
+  font-weight: 900;
+  font-size: 2rem;
+}
+.chracters{
+  width: 50ch;
+  margin: auto;
+  line-height: 2;
+}
+
+.sec1{
+  line-height: 14px;
+}
+
+.sec1 p a{
+  color: white;
+  text-decoration: none;
+}
+.sec1 address:hover, .sec1 p a:hover{
+color: #FFBB2A;
+}
+.favFoot{
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+  
+}
+.favFoot div{
+  padding: 0.2rem;
+  background-color: white;
+  color: #222831;
+  margin-top: 1rem;
+  border-radius: 10px;
+}
+
+.favFoot div:hover{
+  color: #FFBB2A;
+}
+.divFooter{
+  margin-top: 3rem;
+
+}
+
+/* about */
+.footabt{
+  background-color: transparent;
+  
+
+  
+}
+
+.abtbody{
+  background: linear-gradient(#0d0e11,#222831);
+  
+}
+
+
+
+
+.imgdescription{
+  width: 60ch;
+  margin-left: 1rem;
+  text-align: left;
+}
+.imgdescription h2{
+  margin-bottom: 2rem;
+}
+
+.mtimg{
+  margin-bottom: 4rem;
+  margin-top: 3rem;
+  
+}
+.abtImgBody{
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  
+}
