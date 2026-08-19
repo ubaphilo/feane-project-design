@@ -263,3 +263,6 @@ color: #FFBB2A;
   align-items:center;
   
 }
+body{
+  height: full;
+}
