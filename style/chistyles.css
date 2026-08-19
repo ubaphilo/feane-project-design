@@ -9,7 +9,7 @@ nav .grplink{
 }
 
 nav{
-  background: url('/images/hero-bg.jpg');
+  background: url('../images/hero-bg.jpg');
   background-size:cover;
   
   padding-bottom: 2rem;
